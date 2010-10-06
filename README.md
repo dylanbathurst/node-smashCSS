@@ -4,14 +4,14 @@ A CSS compressor/modernizer built in nodeJS
 ## Usage
 `node smashCSS [ path/to/css/dir/ ] [ flags ]`
 
-Flags:
+## Flags:
 * `--combine` - Optional flag that combines all CSS into one file named main.min.css
 
-## Needs
+## Needs:
 * More abstract architecture. 
 * Good solution for ordering CSS in when using combine flag. ORDER MATTERS!!!
 
-## Wants
+## Wants:
 * Remove unneeded px,%,em definitions from margins, paddings, ect. 
 * Flag to leave in comments
 * Flag to specify files to smash
